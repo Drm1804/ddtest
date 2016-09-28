@@ -5,7 +5,7 @@
     .provider('$variants', function() {
 
       var urls = {
-        allData: 'variants.json'
+        allData: 'assets/data/variants.json'
       };
 
       return {

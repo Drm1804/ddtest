@@ -12,12 +12,14 @@
           <p class="b-variants-head__descript">Мы выбрали для вас самые интересные кредитные предложения</p>
         </div>
       </div>
+      <bank-card ng-repeat="item in ctrl.data.top track by $index" card-type="top" card-data="item"></bank-card>
       <div class="b-variants-box__separate">
         <div class="b-variants-box-separate">
           <img src="assets/images/separate.png" alt="" class="b-variants-box-separate__img">
           <p class="b-variants-box-separate__text">Вам также могут понравится</p>
         </div>
       </div>
+      <bank-card ng-repeat="item in ctrl.data.bottom track by $index" card-type="bottom" card-data="item"></bank-card>
 
     </div>
   </div>

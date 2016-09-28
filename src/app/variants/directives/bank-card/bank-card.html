@@ -1,15 +1,23 @@
-<div class="b-bcard-box__item">
-  <div class="b-bcard-box-item">
-    <div class="b-bcard-b-i__l-col">
-      <div class="b-bcard-b-i-l-col">
-        <img src="assets/images/4ecbde9f-1d4d-4237-9666-1b0210cf9e8a.png" alt="" class="b-bcard-b-i-l-col__img">
-      </div>
+<div class="b-bcard-box">
+  <div class="b-bcard-b__l-col">
+    <div class="b-bcard-b-l-col">
+      <img ng-src="assets/images/{{ctrl.data.contractor.logo}}.png" alt="" class="b-bcard-b-l-col__img">
     </div>
-    <div class="b-bcard-b-i__r-col">
-      <div class="b-bcard-b-i-r-col">
-        <div class="b-bcard-b-i-r-col__head"></div>
-        <div class="b-bcard-b-i-r-col__head"></div>
+  </div>
+  <div class="b-bcard-b__r-col">
+    <div class="b-bcard-b-r-col">
+      <p class="b-bcard-b-r-col__head">{{ctrl.data.name}}</p>
+      <p class="b-bcard-b-r-col__text">
+        {{ctrl.data.minDuration}} – {{ctrl.data.maxDuration}} месяцев |
+        <span class="b-bcard-b-r-c-t-span--{{ctrl.type}}">14.9% в год</span>
+      </p>
+      <p class="b-bcard-b-r-col__text">{{ctrl.data.description}}</span></p>
+      <div class="b-bcard-b-r-col__after-link" ng-if="ctrl.type == 'bottom'">
+        <a class="b-bcard-b-r-col-after-link" ui-sref="banner">Подробнее</a>
       </div>
     </div>
   </div>
+  <div class="b-bcard-b__after-col" ng-if="ctrl.type == 'top'"></div>
+
 </div>
+

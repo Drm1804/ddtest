@@ -4,21 +4,18 @@
 
   function VariantsController($variants){
     var vm = this;
-
     vm.data = null;
-
 
     activate();
     function activate(){
       return $variants.getVariants()
         .then(function(resp){
-          console.log(resp)
+          vm.data = resp;
         })
     }
   }
 
-  angular
-    .module('ddtest')
+  angular.module('ddtest')
     .controller('VariantsController', VariantsController);
 
   VariantsController.$inject = ['$variants'];

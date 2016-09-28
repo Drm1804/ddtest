@@ -17,9 +17,10 @@
   width: 620px;
   margin: 0 auto;
   box-shadow: 0 0 15px rgba(22, 53, 67, 0.1);
+  padding-bottom: 100px;
 }
 .b-variants-head{
-  padding-top: 65px;
+  padding: 65px 0 55px 0;
 }
 .b-variants-head__greet{
   font-family:'ProximaNova-Semibold';
@@ -32,7 +33,9 @@
   padding: 0 130px;
   color: rgba(50, 49, 63, .6);
 }
-
+.b-variants-box__separate{
+  padding-top: 55px;
+}
 .b-variants-box-separate__img{
   width:100%;
 }
