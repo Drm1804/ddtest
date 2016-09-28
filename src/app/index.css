@@ -1,0 +1,54 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+
+@font-face {
+  font-family:'ProximaNova-Extrabld';
+  src: url('../assets/fonts/ProximaNova-Extrabld.eot');
+  src: url('../assets/fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/ProximaNova-Extrabld.woff') format('woff'),
+  url('../assets/fonts/ProximaNova-Extrabld.ttf') format('truetype'),
+  url('../assets/fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg');
+}
+
+@font-face {
+  font-family:'ProximaNova-Bold';
+  src: url('../assets/fonts/ProximaNova-Bold.eot');
+  src: url('../assets/fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/ProximaNova-Bold.woff') format('woff'),
+  url('../assets/fonts/ProximaNova-Bold.ttf') format('truetype'),
+  url('../assets/fonts/ProximaNova-Bold.svg#ProximaNova-Extrabld') format('svg');
+}
+
+@font-face {
+  font-family:'ProximaNova-Regular';
+  src: url('../assets/fonts/ProximaNova-Regular.eot');
+  src: url('../assets/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/ProximaNova-Regular.woff') format('woff'),
+  url('../assets/fonts/ProximaNova-Regular.ttf') format('truetype'),
+  url('../assets/fonts/ProximaNova-Regular.svg#ProximaNova-Extrabld') format('svg');
+}
+@font-face {
+  font-family:'ProximaNova-Semibold';
+  src: url('../assets/fonts/ProximaNova-Semibold.eot');
+  src: url('../assets/fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/ProximaNova-Semibold.woff') format('woff'),
+  url('../assets/fonts/ProximaNova-Semibold.ttf') format('truetype'),
+  url('../assets/fonts/ProximaNova-Semibold.svg#ProximaNova-Extrabld') format('svg');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'ProximaNova-Regular';
+  color: #21202f;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}

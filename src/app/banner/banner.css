@@ -1,0 +1,131 @@
+.b-wrap-banner{
+  width: 100%;
+  background: url('../../assets/images/to4e4ki-jumbo.png') 50% top no-repeat;
+}
+
+.b-banner {
+  width: 720px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.b-banner__logo {
+  text-align: center;
+}
+
+.b-banner__head-text {
+  margin: 15px 0;
+}
+
+.b-banner-head-text {
+  font-size: 2.17rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.b-banner__box {
+  margin-top: 35px;
+  border-radius: 10px;
+  border: 10px solid #ffb100;
+  background: #ffffff;
+}
+
+.b-banner-box__l-col {
+  display: inline-block;
+  width: 39%;
+  vertical-align: top;
+}
+
+.b-ban-b-lc__img{
+  position: relative;
+}
+
+.b-ban-b-lc-img{
+  border: 13px solid #ffffff;
+  box-shadow: 1px 1px 5px rgba(0,0,0, .09);
+  border-radius: 3px;
+
+}
+.b-ban-b-lc-img--second{
+
+  transform: rotate(7deg) translate(-8px,13px);
+  position: absolute;
+  top: 14px;
+  left: 20px;
+}
+.b-ban-b-lc-img--third{
+  position: absolute;
+  top: 13px;
+  left: -5px;
+  transform: rotate(-6deg) translate(-13px,-11px);
+}
+
+.b-banner-box__r-col {
+  display: inline-block;
+  width: 60%;;
+}
+
+.b-banner-box-r__text {
+  padding-top: 40px;
+}
+
+.b-banner-box-r-t-name {
+  font-family: 'ProximaNova-Bold';
+  font-size: 1.8125rem;
+}
+
+.b-banner-box-r-t-approved {
+  margin-top: -1px;
+  font-family: 'ProximaNova-Bold';
+  font-size: 1.8125rem;
+}
+
+.b-banner-box-r-t-approved span {
+  background: #f6db9f;
+  padding: 0 4px;
+  margin: -4px;
+}
+
+.b-banner-box-r-t-after {
+  margin-top: 1px;
+  font-family: 'ProximaNova-Bold';
+  font-size: 1.125rem;
+}
+
+.b-banner-box-r__img {
+  max-width: 200px;
+  width: 100%;
+
+}
+.b-banner__footer{
+  margin-top: 20px;
+}
+
+.b-banner-footer-text {
+  font-family: 'ProximaNova-Semibold';
+  text-align: center;
+  font-size: 1.6875rem;
+  padding: 0 30px;
+  line-height: 1.8rem;
+}
+
+.b-banner-f__link{
+  text-align: center;
+  margin: 27px 0;
+
+
+}
+
+.b-banner-f-link{
+  font-family: 'ProximaNova-Semibold';
+  text-decoration: none;
+  color: #ffffff;
+  background: #416ff1;
+  padding: 6px 45px;
+  border-radius: 30px;
+  font-size: 1.4375rem;
+  transition-duration: .3s;
+}
+.b-banner-f-link:hover{
+  background: #ffb100;
+}
