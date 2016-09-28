@@ -1,8 +1,7 @@
 (function () {
   'use strict';
 
-  angular
-    .module('ddtest')
+  angular.module('ddtest')
     .config(config);
 
   config.$inject = ['$stateProvider'];
