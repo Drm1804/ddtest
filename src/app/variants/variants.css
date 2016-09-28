@@ -1,0 +1,43 @@
+.b-variants {
+  padding: 20px 0;
+
+}
+
+.b-variants__logo {
+  width: 140px;
+  margin: 20px auto;
+
+}
+
+.b-variants-logo {
+  width: 100%;
+}
+
+.b-variants__box {
+  width: 620px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px rgba(22, 53, 67, 0.1);
+}
+.b-variants-head{
+  padding-top: 65px;
+}
+.b-variants-head__greet{
+  font-family:'ProximaNova-Semibold';
+  text-align: center;
+  font-size: 1.625rem;
+  margin-bottom: 5px;
+}
+.b-variants-head__descript{
+  text-align: center;
+  padding: 0 130px;
+  color: rgba(50, 49, 63, .6);
+}
+
+.b-variants-box-separate__img{
+  width:100%;
+}
+.b-variants-box-separate__text{
+  text-align: center;
+  color: rgba(50, 49, 63, .6);
+  margin: 40px 0;
+}
